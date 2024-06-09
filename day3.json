@@ -1,12 +1,12 @@
 {
     "workoutType": "Leg day",
-    "totalTime": 60,
+    "totalTime": 45,
     "exercises": [
         {
             "name": "Leg Press",
             "reps": 8,
             "sets": 4,
-            "time": 8,
+            "time": 15,
             "musclesWorked": "Quads, Hamstrings, Glutes",
             "repGoal": 12,
             "equipment": "Leg Press Machine",
@@ -14,7 +14,7 @@
                 "name": "Squat",
                 "reps": 6,
                 "sets": 4,
-                "time": 10,
+                "time": 15,
                 "equipment": "Barbell + Weights"
             }
         },
@@ -22,7 +22,7 @@
             "name": "Leg Curls",
             "reps": 8,
             "sets": 4,
-            "time": 8,
+            "time": 10,
             "musclesWorked": "Hamstrings",
             "repGoal": 12,
             "equipment": "Leg Curl Machine"
