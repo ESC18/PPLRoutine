@@ -1,0 +1,81 @@
+{
+    "workoutType": "Leg day",
+    "totalTime": 60,
+    "exercises": [
+        {
+            "name": "Leg Press",
+            "reps": 8,
+            "sets": 4,
+            "time": 8,
+            "musclesWorked": "Quads, Hamstrings, Glutes",
+            "repGoal": 12,
+            "equipment": "Leg Press Machine",
+            "alternative": {
+                "name": "Squat",
+                "reps": 6,
+                "sets": 4,
+                "time": 10,
+                "equipment": "Barbell + Weights"
+            }
+        },
+        {
+            "name": "Leg Curls",
+            "reps": 8,
+            "sets": 4,
+            "time": 8,
+            "musclesWorked": "Hamstrings",
+            "repGoal": 12,
+            "equipment": "Leg Curl Machine"
+        },
+        {
+            "name": "Weighted Lunges",
+            "reps": 8,
+            "sets": 4,
+            "time": 10,
+            "musclesWorked": "Quads, Glutes",
+            "repGoal": 10,
+            "equipment": "Dumbbells"
+        },
+        {
+            "name": "Standing Calf Raises",
+            "reps": "10 x3(Straight, Out, In)",
+            "sets": 4,
+            "time": 10,
+            "musclesWorked": "Calves",
+            "repGoal": "None",
+            "equipment": "Standing Calf Raise Machine"
+        },
+        {
+            "name": "Core Superset",
+            "exercises": [
+                {
+                    "name": "Scissor Legs",
+                    "reps": 100,
+                    "sets": 1,
+                    "time": 3,
+                    "musclesWorked": "Core",
+                    "repGoal": 20,
+                    "equipment": "None"
+                },
+                {
+                    "name": "Plank",
+                    "reps": "Max time",
+                    "sets": 1,
+                    "time": 3,
+                    "musclesWorked": "Core",
+                    "repGoal": "Increase time",
+                    "equipment": "None"
+                },
+                {
+                    "name": "Penguins",
+                    "reps": 100,
+                    "sets": 1,
+                    "time": 3,
+                    "musclesWorked": "Core",
+                    "repGoal": 25,
+                    "equipment": "None"
+                }
+            ]
+        }
+    ]
+}

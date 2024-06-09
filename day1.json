@@ -1,0 +1,99 @@
+{
+    "workoutType": "Push day",
+    "totalTime": 60,
+    "exercises": [
+        {
+            "name": "Bench Press",
+            "reps": 6,
+            "sets": 3,
+            "time": 15,
+            "musclesWorked": "Chest, Triceps",
+            "repGoal": 8,
+            "equipment": "Barbell",
+            "alternative": {
+                "name": "Dumbbell Press",
+                "reps": 8,
+                "sets": 4,
+                "time": 10,
+                "equipment": "Dumbbells"
+            }
+        },
+        {
+            "name": "Dumbbell Shoulder Press",
+            "reps": 8,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Shoulders",
+            "repGoal": 10,
+            "equipment": "Dumbbells"
+        },
+        {
+            "name": "Lateral Raise (Standing)",
+            "reps": 8,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Shoulders",
+            "repGoal": 10,
+            "equipment": "Dumbbells"
+        },
+        {
+            "name": "Dumbbell Chest Fly",
+            "reps": 8,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Chest",
+            "repGoal": 10,
+            "equipment": "Dumbbells"
+        },
+        {
+            "name": "Skullcrushers",
+            "reps": 8,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Triceps",
+            "repGoal": 10,
+            "equipment": "Barbell"
+        },
+        {
+            "name": "Dips",
+            "reps": 15,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Triceps, Chest",
+            "repGoal": "None",
+            "equipment": "Dip Bar"
+        },
+        {
+            "name": "Core Superset",
+            "exercises": [
+                {
+                    "name": "Penguins",
+                    "reps": 100,
+                    "sets": 1,
+                    "time": 3,
+                    "musclesWorked": "Core",
+                    "repGoal": 25,
+                    "equipment": "None"
+                },
+                {
+                    "name": "Crunches/Sit-ups",
+                    "reps": 100,
+                    "sets": 1,
+                    "time": 3,
+                    "musclesWorked": "Core",
+                    "repGoal": 20,
+                    "equipment": "None"
+                },
+                {
+                    "name": "Bicycle Crunch",
+                    "reps": 100,
+                    "sets": 1,
+                    "time": 3,
+                    "musclesWorked": "Core",
+                    "repGoal": 20,
+                    "equipment": "None"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.exercise {
+    background-color: #161414;
+    margin: 10px;
+    padding: 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+button {
+    background: transparent;
+    color: #FF7700;
+    border: transparent;
+}
+
+.move-section {
+    background-color: #222; /* Section background color */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.move-section h2 {
+    margin: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.move-details {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.move-details p {
+    margin: 0;
+    color: #fff;
+}
+
+.move-details.show {
+    display: block;
+}
+
+.move-details.hide {
+    display: none;
+}
+
+.accent-color {
+    color: #FF7700;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+}
+
+.core-exercise h4 {
+    color: #FF7700; /* Orange color for core exercise names */
+}
+
+.exercise {
+    position: relative; /* Ensure relative positioning for absolute child */
+  }
+  
+  .exercise button {
+    position: absolute; /* Set button position to absolute */
+    left: 0px; /* Align button to the left side of the parent container */
+    bottom: -7px; /* Align button to the bottom of the parent container */
+    margin-bottom: 10px; /* Add some margin to separate from exercise details */
+  }
+  

@@ -1,0 +1,99 @@
+{
+    "workoutType": "Pull day",
+    "totalTime": 60,
+    "exercises": [
+        {
+            "name": "Dumbbell Row",
+            "reps": 8,
+            "sets": 4,
+            "time": 8,
+            "musclesWorked": "Back, Biceps",
+            "repGoal": 10,
+            "equipment": "Dumbbells"
+        },
+        {
+            "name": "Bicep Curls",
+            "reps": 8,
+            "sets": 4,
+            "time": 10,
+            "musclesWorked": "Biceps",
+            "repGoal": 10,
+            "equipment": "Dumbbells"
+        },
+        {
+            "name": "Hammer Curls",
+            "reps": 8,
+            "sets": 4,
+            "time": 10,
+            "musclesWorked": "Biceps",
+            "repGoal": 10,
+            "equipment": "Dumbbells"
+        },
+        {
+            "name": "Bent Over Rows",
+            "reps": 8,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Back",
+            "repGoal": 10,
+            "equipment": "Barbell"
+        },
+        {
+            "name": "Face Pull",
+            "reps": 8,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Back, Shoulders",
+            "repGoal": 10,
+            "equipment": "Cable Machine"
+        },
+        {
+            "name": "Pull Ups",
+            "reps": 10,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Back, Biceps",
+            "repGoal": 10,
+            "equipment": "Pull Up Bar",
+            "alternative": {
+                "name": "Lat Pulldown",
+                "reps": 8,
+                "sets": 3,
+                "time": 10,
+                "equipment": "Lat Pulldown Machine"
+            }
+        },
+        {
+            "name": "Core Superset",
+            "exercises": [
+                {
+                    "name": "Scissor Legs",
+                    "reps": 100,
+                    "sets": 1,
+                    "time": 3,
+                    "musclesWorked": "Core",
+                    "repGoal": 25,
+                    "equipment": "None"
+                },
+                {
+                    "name": "Plank",
+                    "reps": "Max time",
+                    "sets": 1,
+                    "time": 3,
+                    "musclesWorked": "Core",
+                    "repGoal": "Increase time",
+                    "equipment": "None"
+                },
+                {
+                    "name": "Bicycle Crunch",
+                    "reps": 100,
+                    "sets": 1,
+                    "time": 3,
+                    "musclesWorked": "Core",
+                    "repGoal": 25,
+                    "equipment": "None"
+                }
+            ]
+        }
+    ]
+}
