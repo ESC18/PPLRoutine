@@ -13,28 +13,57 @@ header {
     padding: 1rem 0;
 }
 
+main {
+    padding: 1rem;
+}
+
+/* Existing CSS styles remain unchanged */
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Existing CSS styles remain unchanged */
+
+section h2 {
+    color: #FF7700;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+}
+
+h4 {
+    margin-left: 10px;
+    margin-top: -5px;
+    display: none;
+}
+
+/* Add additional styling for core superset section */
+#core-superset-container {
+    border-top: 2px solid #FF7700;
+    border-bottom: 2px solid #FF7700;
+    padding: 1rem 0;
+}
+
+
 .exercise {
     background-color: #161414;
     margin: 10px;
     padding: 5px;
-}
-
-h1 {
-    margin: 0;
-}
-
-main {
-    padding: 1rem;
+    position: relative;
 }
 
 button {
     background: transparent;
     color: #FF7700;
     border: transparent;
+    position: absolute;
+    left: 0px;
+    bottom: -7px;
+    margin-bottom: 10px;
 }
 
 .move-section {
-    background-color: #222; /* Section background color */
+    background-color: #222;
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -74,21 +103,9 @@ button {
 
 .show {
     display: inline-block;
+    margin-top: -20px;
 }
 
 .core-exercise h4 {
-    color: #FF7700; /* Orange color for core exercise names */
+    color: #FF7700;
 }
-
-.exercise {
-    position: relative; /* Ensure relative positioning for absolute child */
-  }
-  
-  .exercise button {
-    position: absolute; /* Set button position to absolute */
-    left: 0px; /* Align button to the left side of the parent container */
-    bottom: -7px; /* Align button to the bottom of the parent container */
-    margin-bottom: 10px; /* Add some margin to separate from exercise details */
-  }
-  
-  /*Teehee*/

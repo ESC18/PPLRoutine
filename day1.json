@@ -21,7 +21,7 @@
         {
             "name": "Dumbbell Shoulder Press",
             "reps": 8,
-            "sets": 3,
+            "sets": 4,
             "time": 10,
             "musclesWorked": "Shoulders",
             "repGoal": 10,
@@ -30,7 +30,7 @@
         {
             "name": "Lateral Raise (Standing)",
             "reps": 8,
-            "sets": 3,
+            "sets": 4,
             "time": 10,
             "musclesWorked": "Shoulders",
             "repGoal": 10,
@@ -39,7 +39,7 @@
         {
             "name": "Dumbbell Chest Fly",
             "reps": 8,
-            "sets": 3,
+            "sets": 4,
             "time": 10,
             "musclesWorked": "Chest",
             "repGoal": 10,
@@ -57,7 +57,7 @@
         {
             "name": "Dips",
             "reps": 15,
-            "sets": 3,
+            "sets": 4,
             "time": 10,
             "musclesWorked": "Triceps, Chest",
             "repGoal": "None",

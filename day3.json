@@ -4,15 +4,15 @@
     "exercises": [
         {
             "name": "Leg Press",
-            "reps": 8,
-            "sets": 4,
+            "reps": 10,
+            "sets": 5,
             "time": 15,
             "musclesWorked": "Quads, Hamstrings, Glutes",
             "repGoal": 12,
             "equipment": "Leg Press Machine",
             "alternative": {
-                "name": "Squat",
-                "reps": 6,
+                "name": "Back Squat",
+                "reps": 8,
                 "sets": 4,
                 "time": 15,
                 "equipment": "Barbell + Weights"
@@ -21,11 +21,20 @@
         {
             "name": "Leg Curls",
             "reps": 8,
-            "sets": 4,
+            "sets": 5,
             "time": 10,
             "musclesWorked": "Hamstrings",
             "repGoal": 12,
             "equipment": "Leg Curl Machine"
+        },
+        {
+            "name": "Prone Leg Curls",
+            "reps": 8,
+            "sets": 5,
+            "time": 10,
+            "musclesWorked": "Hamstrings, Glutes",
+            "repGoal": 12,
+            "equipment": "Prone Leg Curl Machine"
         },
         {
             "name": "Weighted Lunges",
