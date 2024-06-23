@@ -8,6 +8,31 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
+    let currentDay = getWorkoutDay(); // Initialize with today's workout day
+
+    // Load workout data based on current day in PPL schedule
+    displayWorkoutData(currentDay);
+
+    // Navigation buttons
+    const prevDayButton = document.getElementById('prev-day');
+    const nextDayButton = document.getElementById('next-day');
+
+    if (prevDayButton && nextDayButton) {
+        prevDayButton.addEventListener('click', navigateDay);
+        nextDayButton.addEventListener('click', navigateDay);
+    }
+
+    // Function to navigate between workout days
+    function navigateDay(event) {
+        if (event.target.id === 'prev-day') {
+            currentDay = getPreviousWorkoutDay(currentDay);
+        } else if (event.target.id === 'next-day') {
+            currentDay = getNextWorkoutDay(currentDay);
+        }
+
+        displayWorkoutData(currentDay);
+    }
+
     // Function to fetch workout data from JSON file
     async function fetchWorkoutData(day) {
         try {
@@ -28,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // Function to fetch core workout data from JSON file
     async function fetchCoreWorkoutData() {
         try {
             const response = await fetch('coreWorkouts.json');
@@ -40,91 +66,91 @@ document.addEventListener("DOMContentLoaded", function () {
             throw error;
         }
     }
-    
-    
+
+    // Function to display workout data for a specific day
     async function displayWorkoutData(day) {
         try {
             const data = await fetchWorkoutData(day);
             gymWorkoutContainer.innerHTML = ''; // Clear previous gym workout data
             homeWorkoutContainer.innerHTML = ''; // Clear previous home workout data
-    
+
             // Initialize totalTime
             let totalTime = data.totalTime;
-    
+
             // Create and append h2 element for gym workout section
             const gymHeader = document.createElement('h2');
             gymHeader.textContent = 'Gym Workout';
             gymWorkoutContainer.appendChild(gymHeader);
-    
+
             // Display gym workout data
             data.exercises.forEach(exercise => {
                 if (exercise.name !== "Core Superset") { // Handle main workout (gym)
                     const exerciseElement = document.createElement('div');
                     exerciseElement.classList.add('exercise');
-    
+
                     const header = document.createElement('h3');
                     header.innerText = `${exercise.name} | Reps: ${exercise.reps} | Sets: ${exercise.sets} | Time: ${exercise.time} min`;
-    
+
                     const details = document.createElement('div');
                     details.classList.add('hidden');
-    
+
                     const musclesWorked = createDetail('Muscles Worked', exercise.musclesWorked);
                     const repsSets = createDetail('Reps/Sets', `Reps: ${exercise.reps}, Sets: ${exercise.sets}, Time: ${exercise.time} min`);
                     const repGoal = createDetail('Rep Goal to Increase Weight', exercise.repGoal);
                     const equipment = createDetail('Equipment', exercise.equipment);
-    
+
                     appendChildren(details, musclesWorked, repsSets, repGoal, equipment);
-    
+
                     if (exercise.alternative) {
                         const alternative = document.createElement('p');
                         alternative.innerHTML = `<small><strong>Alternative Exercise:</strong> ${exercise.alternative.name} | Reps: ${exercise.alternative.reps} | Sets: ${exercise.alternative.sets} | Time: ${exercise.alternative.time} min | Equipment: ${exercise.alternative.equipment}</small>`;
                         details.appendChild(alternative);
                     }
-    
+
                     const expandButton = document.createElement('button');
                     expandButton.innerText = 'Expand';
                     expandButton.addEventListener('click', () => toggleDetails(details, expandButton));
-    
+
                     // Append header, details, and then expand button
                     appendChildren(exerciseElement, header, details, expandButton);
                     gymWorkoutContainer.appendChild(exerciseElement);
                 }
             });
-    
+
             // Display core workout data for home workout
             const coreExercisesData = await fetchCoreWorkoutData();
             const coreWorkouts = coreExercisesData.coreWorkouts[day.toString()]; // Access core workouts for the selected day
-    
+
             const coreHeader = document.createElement('h2');
             coreHeader.innerText = 'Core Exercises';
             homeWorkoutContainer.appendChild(coreHeader);
-    
+
             let coreTotalTime = 0; // Initialize core total time
-    
+
             coreWorkouts.forEach(coreExerciseDetails => {
                 const coreElement = document.createElement('div');
                 coreElement.classList.add('exercise');
-    
+
                 const header = document.createElement('h3');
                 header.innerText = coreExerciseDetails.name;
-    
+
                 const details = document.createElement('div');
                 details.classList.add('hidden');
-    
+
                 const reps = createDetail('reps', coreExerciseDetails.reps);
                 const sets = createDetail('sets', coreExerciseDetails.sets);
                 const time = createDetail('time', coreExerciseDetails.time);
                 appendChildren(details, reps, sets, time);
-    
+
                 const expandButton = document.createElement('button');
                 expandButton.innerText = 'Expand';
                 expandButton.addEventListener('click', () => toggleDetails(details, expandButton));
-    
+
                 coreElement.appendChild(header);
                 coreElement.appendChild(details);
                 coreElement.appendChild(expandButton);
                 homeWorkoutContainer.appendChild(coreElement);
-    
+
                 // Parse time value and add to coreTotalTime
                 const timeString = coreExerciseDetails.time;
                 const timeArray = timeString.split(' ');
@@ -134,25 +160,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     coreTotalTime += exerciseTime;
                 }
             });
-    
+
             // Display core total time underneath the "Core Exercises" heading
             const coreTotalTimeHeader = document.createElement('h4');
             coreTotalTimeHeader.innerText = `Total Core Time: ${coreTotalTime} min`;
             homeWorkoutContainer.insertBefore(coreTotalTimeHeader, homeWorkoutContainer.childNodes[1]); // Place it above the workout moves
-    
+
             updateHeader(data.workoutType, totalTime);
         } catch (error) {
             console.error('Error displaying workout data:', error);
+            throw error;
         }
     }
-    
-    
-    
-    
-    
-    
-    
-    
 
     // Function to create a detail element
     function createDetail(label, value) {
@@ -176,35 +195,46 @@ document.addEventListener("DOMContentLoaded", function () {
         children.forEach(child => parent.appendChild(child));
     }
 
-    // Function to get workout day based on PPL schedule
-    function getWorkoutDay() {
-        const dayOfWeek = new Date().getDay();
-        const schedule = {
-            0: null,  // Sunday: Rest day
-            1: 3,     // Monday: Leg day
-            2: 1,     // Tuesday: Push day
-            3: 2,     // Wednesday: Pull day
-            4: 3,     // Thursday: Leg day
-            5: 1,     // Friday: Push day
-            6: 2      // Saturday: Pull day
-        };
-        return schedule[dayOfWeek];
+// Function to get workout day based on PPL schedule
+function getWorkoutDay() {
+    const dayOfWeek = new Date().getDay();
+    const schedule = {
+        0: null,  // Sunday: Rest day
+        1: 3,     // Monday: Leg day
+        2: 1,     // Tuesday: Push day
+        3: 2,     // Wednesday: Pull day
+        4: 3,     // Thursday: Leg day
+        5: 1,     // Friday: Push day
+        6: 2      // Saturday: Pull day
+    };
+    return schedule.hasOwnProperty(dayOfWeek) ? schedule[dayOfWeek] : 1; // Default to Monday (Leg day) if dayOfWeek is not in the schedule
+}
+
+
+
+    // Function to get the previous workout day
+    function getPreviousWorkoutDay(currentDay) {
+        switch (currentDay) {
+            case 1: return 3; // Monday to Thursday
+            case 2: return 1; // Tuesday to Monday
+            case 3: return 2; // Wednesday to Tuesday
+            default: return null;
+        }
+    }
+
+    // Function to get the next workout day
+    function getNextWorkoutDay(currentDay) {
+        switch (currentDay) {
+            case 1: return 2; // Monday to Tuesday
+            case 2: return 3; // Tuesday to Wednesday
+            case 3: return 1; // Wednesday to Monday
+            default: return null;
+        }
     }
 
     // Function to update the header with workout info
     function updateHeader(workoutType, totalTime) {
         const date = new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
         workoutInfo.innerText = `${date} - ${workoutType} | Estimated Time: ${totalTime}min`;
-    }
-
-    // Load workout data based on current day in PPL schedule
-    const workoutDay = getWorkoutDay();
-    if (workoutDay) {
-        displayWorkoutData(workoutDay);
-    } else {
-        gymWorkoutContainer.innerHTML = '<p>Rest day! No workout scheduled.</p>';
-        homeWorkoutContainer.innerHTML = ''; // Clear home workout on rest day
-        const date = new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
-        workoutInfo.innerText = `${ date } - Rest Day`;
     }
 });

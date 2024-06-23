@@ -1,20 +1,20 @@
 {
     "workoutType": "Push day",
-    "totalTime": 65,
+    "totalTime": 95,
     "exercises": [
         {
-            "name": "Bench Press",
-            "reps": 6,
-            "sets": 3,
+            "name": "Incline/Flat Bench Press",
+            "reps": 8,
+            "sets": 5,
             "time": 15,
             "musclesWorked": "Chest, Triceps",
-            "repGoal": 8,
+            "repGoal": 12,
             "equipment": "Barbell",
             "alternative": {
                 "name": "Dumbbell Press",
                 "reps": 8,
-                "sets": 4,
-                "time": 10,
+                "sets": 5,
+                "time": 15,
                 "equipment": "Dumbbells"
             }
         },
@@ -28,7 +28,16 @@
             "equipment": "Dumbbells"
         },
         {
-            "name": "Lateral Raise (Standing)",
+            "name": "Lateral Raise",
+            "reps": 8,
+            "sets": 4,
+            "time": 10,
+            "musclesWorked": "Shoulders",
+            "repGoal": 10,
+            "equipment": "Dumbbells"
+        },
+        {
+            "name": "Frontal Lateral Raise",
             "reps": 8,
             "sets": 4,
             "time": 10,
@@ -46,9 +55,18 @@
             "equipment": "Dumbbells"
         },
         {
+            "name": "reverse Curl",
+            "reps": 8,
+            "sets": 4,
+            "time": 10,
+            "musclesWorked": "Forearms",
+            "repGoal": 10,
+            "equipment": "Ez bar"
+        },
+        {
             "name": "Skullcrushers",
             "reps": 8,
-            "sets": 3,
+            "sets": 4,
             "time": 10,
             "musclesWorked": "Triceps",
             "repGoal": 10,
@@ -64,36 +82,20 @@
             "equipment": "Dip Bar"
         },
         {
-            "name": "Core Superset",
-            "exercises": [
-                {
-                    "name": "Penguins",
-                    "reps": 100,
-                    "sets": 1,
-                    "time": 3,
-                    "musclesWorked": "Core",
-                    "repGoal": 25,
-                    "equipment": "None"
-                },
-                {
-                    "name": "Crunches/Sit-ups",
-                    "reps": 100,
-                    "sets": 1,
-                    "time": 3,
-                    "musclesWorked": "Core",
-                    "repGoal": 20,
-                    "equipment": "None"
-                },
-                {
-                    "name": "Bicycle Crunch",
-                    "reps": 100,
-                    "sets": 1,
-                    "time": 3,
-                    "musclesWorked": "Core",
-                    "repGoal": 20,
-                    "equipment": "None"
-                }
-            ]
+            "name": "Pull Ups",
+            "reps": 10,
+            "sets": 4,
+            "time": 10,
+            "musclesWorked": "Back, Biceps",
+            "repGoal": 10,
+            "equipment": "Pull Up Bar",
+            "alternative": {
+                "name": "Lat Pulldown",
+                "reps": 8,
+                "sets": 3,
+                "time": 10,
+                "equipment": "Lat Pulldown Machine"
+            }
         }
     ]
 }

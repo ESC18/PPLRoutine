@@ -1,224 +1,154 @@
 {
     "coreWorkouts": {
         "1": [
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" },
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" },
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" },
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" }
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" }
         ],
         "2": [
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" },
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" },
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" },
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" }
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" },
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" }
         ],
         "3": [
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" },
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" },
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" },
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" }
+            { "name": "Plank", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" },
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" }
         ],
         "4": [
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" },
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" },
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" },
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" }
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" }
         ],
         "5": [
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" },
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" },
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" },
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" }
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" }
         ],
         "6": [
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" },
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" },
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" }
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" }
         ],
         "7": [
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" },
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" },
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" },
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" }
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" }
         ],
         "8": [
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" },
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" },
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" }
+            { "name": "Plank", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" },
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" }
         ],
         "9": [
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" },
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" }
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" },
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" }
         ],
         "10": [
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" },
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" }
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" }
         ],
         "11": [
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" }
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" },
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" },
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" }
         ],
         "12": [
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" }
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Plank", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" }
         ],
         "13": [
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" },
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" }
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" }
         ],
         "14": [
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" },
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" }
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" },
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" }
         ],
         "15": [
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" },
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" },
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" }
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" }
         ],
         "16": [
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" },
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" },
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" },
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" }
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" },
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Plank", "reps": "-", "sets": "1", "time": "1" }
         ],
         "17": [
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" },
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" },
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" },
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" }
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" },
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" }
         ],
         "18": [
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" },
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" },
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" },
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" }
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" }
         ],
         "19": [
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" },
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" },
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" },
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" }
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Plank", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" }
         ],
         "20": [
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" },
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" },
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" },
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" }
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" },
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" }
         ],
         "21": [
-            { "name": "L Sit Compressions", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" },
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" },
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" }
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" },
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" }
         ],
         "22": [
-            { "name": "Reverse Plank Crunches", "reps": "12", "sets": "3", "time": "7" },
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" },
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" },
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" }
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" }
         ],
         "23": [
-            { "name": "Psuedo Plank", "reps": "-", "sets": "-", "time": "45s" },
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" },
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" }
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" },
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" }
         ],
         "24": [
-            { "name": "Penguins", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" },
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" }
+            { "name": "Plank", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" }
         ],
         "25": [
-            { "name": "Plank", "reps": "-", "sets": "-", "time": "1m" },
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" }
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" }
         ],
         "26": [
-            { "name": "Bicycle Crunch", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" }
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" },
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" }
         ],
         "27": [
-            { "name": "Superman", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" }
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Plank", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" }
         ],
         "28": [
-            { "name": "Crunches", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" },
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" }
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Penguins", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Bicycle Crunch", "reps": "75", "sets": "1", "time": "3" }
         ],
         "29": [
-            { "name": "Situps", "reps": "15", "sets": "3", "time": "5" },
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" },
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" }
+            { "name": "Scissor Legs", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Hollow Body Hold", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Leg raises", "reps": "15", "sets": "3", "time": "5" }
         ],
         "30": [
-            { "name": "Scissor Legs", "reps": "20", "sets": "3", "time": "6" },
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" },
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" },
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" }
-        ],
-        "31": [
-            { "name": "Reverse Crunches", "reps": "10", "sets": "3", "time": "5" },
-            { "name": "Leg Raise + Hip Lift", "reps": "12", "sets": "3", "time": "6" },
-            { "name": "Around the World", "reps": "15", "sets": "3", "time": "7" },
-            { "name": "Single Leg Jackknife", "reps": "10", "sets": "3", "time": "6" },
-            { "name": "Hollow Body Hold", "reps": "-", "sets": "-", "time": "30s" }
+            { "name": "Plank", "reps": "-", "sets": "1", "time": "1" },
+            { "name": "Crunches", "reps": "100", "sets": "1", "time": "3" },
+            { "name": "Situps", "reps": "100", "sets": "1", "time": "3" }
         ]
     }
 }
-
-
-
