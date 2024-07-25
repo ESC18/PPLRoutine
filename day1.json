@@ -37,31 +37,13 @@
             "equipment": "Dumbbells"
         },
         {
-            "name": "Frontal Lateral Raise",
+            "name": "Front Lateral Raise",
             "reps": 8,
             "sets": 4,
             "time": 10,
             "musclesWorked": "Shoulders",
             "repGoal": 10,
             "equipment": "Dumbbells"
-        },
-        {
-            "name": "Dumbbell Chest Fly",
-            "reps": 8,
-            "sets": 4,
-            "time": 10,
-            "musclesWorked": "Chest",
-            "repGoal": 10,
-            "equipment": "Dumbbells"
-        },
-        {
-            "name": "reverse Curl",
-            "reps": 8,
-            "sets": 4,
-            "time": 10,
-            "musclesWorked": "Forearms",
-            "repGoal": 10,
-            "equipment": "Ez bar"
         },
         {
             "name": "Skullcrushers",
@@ -73,29 +55,40 @@
             "equipment": "Barbell"
         },
         {
-            "name": "Dips",
-            "reps": 15,
+            "name": "Tricep Pulldown",
+            "reps": 10,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Triceps",
+            "repGoal": 10,
+            "equipment": "Cable Machine"
+        },
+        {
+            "name": "Pec Fly Machine",
+            "reps": 8,
             "sets": 4,
+            "time": 10,
+            "musclesWorked": "Chest",
+            "repGoal": 10,
+            "equipment": "Dumbbells"
+        },
+        {
+            "name": "Dips",
+            "reps": 10,
+            "sets": 3,
             "time": 10,
             "musclesWorked": "Triceps, Chest",
             "repGoal": "None",
             "equipment": "Dip Bar"
         },
         {
-            "name": "Pull Ups",
+            "name": "Pushups - Bicep/Tricep/Trick",
             "reps": 10,
-            "sets": 4,
+            "sets": 3,
             "time": 10,
-            "musclesWorked": "Back, Biceps",
-            "repGoal": 10,
-            "equipment": "Pull Up Bar",
-            "alternative": {
-                "name": "Lat Pulldown",
-                "reps": 8,
-                "sets": 3,
-                "time": 10,
-                "equipment": "Lat Pulldown Machine"
-            }
+            "musclesWorked": "Triceps, Chest, Biceps",
+            "repGoal": "None",
+            "equipment": "None"
         }
     ]
 }

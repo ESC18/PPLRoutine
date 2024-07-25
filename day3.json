@@ -1,6 +1,6 @@
 {
     "workoutType": "Leg day",
-    "totalTime": 85,
+    "totalTime": 100,
     "exercises": [
         {
             "name": "Leg Press",
@@ -12,18 +12,9 @@
             "equipment": "Leg Press Machine"
         },
         {
-            "name": "Leg Curls",
-            "reps": 8,
-            "sets": 4,
-            "time": 10,
-            "musclesWorked": "Hamstrings",
-            "repGoal": 12,
-            "equipment": "Leg Curl Machine"
-        },
-        {
             "name": "Prone Leg Curls",
-            "reps": 8,
-            "sets": 4,
+            "reps": 10,
+            "sets": 5,
             "time": 10,
             "musclesWorked": "Hamstrings, Glutes",
             "repGoal": 12,
@@ -31,7 +22,7 @@
         },
         {
             "name": "Back Squat",
-            "reps": 6,
+            "reps": 8,
             "sets": 5,
             "time": 15,
             "musclesWorked": "Back, Core, Calves, Hips",
@@ -39,13 +30,29 @@
             "equipment": "Barbell + Weights, Squat Rack"
         },
         {
-            "name": "Weighted Lunges",
+            "name": "Romanian Deadlift",
+            "reps": 8,
+            "sets": 3,
+            "time": 10,
+            "musclesWorked": "Back, Core, Calves, Hips",
+            "repGoal": 10,
+            "equipment": "Barbell + Weights, Squat Rack"
+        },
+        {
+            "name": "Bulgarian Split Squat",
             "reps": 8,
             "sets": 4,
-            "time": 10,
+            "time": 15,
             "musclesWorked": "Quads, Glutes",
             "repGoal": 10,
-            "equipment": "Dumbbells"
+            "equipment": "Dumbbells",
+            "alternative": {
+                "name": "Weighted Lunges",
+                "reps": 8,
+                "sets": 4,
+                "time": 15,
+                "equipment": "Dumbbells"
+            }
         },
         {
             "name": "Standing Calf Raises",
@@ -64,6 +71,15 @@
             "musclesWorked": "Quads, Glutes, Hamstrings, Calves",
             "repGoal": "None",
             "equipment": "Stair Master"
+        },
+        {
+            "name": "Treadmill Forwards/Backwards",
+            "reps": "1-2 Miles",
+            "sets": 1,
+            "time": 15,
+            "musclesWorked": "Quads, Glutes, Hamstrings, Calves",
+            "repGoal": "None",
+            "equipment": "Treadmill"
         }
     ]
 }

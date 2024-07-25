@@ -1,18 +1,18 @@
 {
     "workoutType": "Pull day",
-    "totalTime": 90,
+    "totalTime": 110,
     "exercises": [
         {
             "name": "Dumbbell Row",
             "reps": 8,
             "sets": 4,
-            "time": 8,
+            "time": 10,
             "musclesWorked": "Back, Biceps",
             "repGoal": 10,
             "equipment": "Dumbbells"
         },
         {
-            "name": "Bicep Curls",
+            "name": "Focused Alternating Bicep Curls",
             "reps": 8,
             "sets": 4,
             "time": 10,
@@ -21,31 +21,13 @@
             "equipment": "Dumbbells"
         },
         {
-            "name": "Hammer Curls",
+            "name": "Alternating Hammer Curls",
             "reps": 8,
             "sets": 4,
             "time": 10,
             "musclesWorked": "Biceps",
             "repGoal": 10,
             "equipment": "Dumbbells"
-        },
-        {
-            "name": "Bent Over Rows",
-            "reps": 8,
-            "sets": 4,
-            "time": 10,
-            "musclesWorked": "Back",
-            "repGoal": 10,
-            "equipment": "Barbell"
-        },
-        {
-            "name": "Wrist Curls",
-            "reps": 8,
-            "sets": 3,
-            "time": 10,
-            "musclesWorked": "Wrists, Forearm",
-            "repGoal": 12,
-            "equipment": "Barbell"
         },
         {
             "name": "Preacher Curls",
@@ -54,20 +36,27 @@
             "time": 10,
             "musclesWorked": "Biceps",
             "repGoal": 10,
-            "equipment": "Preacher curl bench"
+            "equipment": "Preacher curl bench",
+            "alternative": {
+                "name": "Bicep Static Holds",
+                "reps": 1,
+                "sets": 1,
+                "time": 3,
+                "equipment": "Ez bar"
+            }
         },
         {
-            "name": "Face Pull",
-            "reps": 8,
+            "name": "Lat Pulldown",
+            "reps": 12,
             "sets": 4,
             "time": 10,
-            "musclesWorked": "Back, Shoulders",
-            "repGoal": 10,
-            "equipment": "Cable Machine"
+            "musclesWorked": "Lats, Upper back",
+            "repGoal": 12,
+            "equipment": "Lat Pulldown Machine"
         },
         {
-            "name": "Tricep pull-down",
-            "reps": 10,
+            "name": "Seated Cable Rows",
+            "reps": 12,
             "sets": 4,
             "time": 10,
             "musclesWorked": "Arms, Shoulders",
@@ -75,18 +64,44 @@
             "equipment": "Cable Machine"
         },
         {
+            "name": "Face Pull",
+            "reps": 12,
+            "sets": 4,
+            "time": 10,
+            "musclesWorked": "Back, Shoulders",
+            "repGoal": 10,
+            "equipment": "Cable Machine"
+        },
+        {
+            "name": "reverse Curl",
+            "reps": 8,
+            "sets": 4,
+            "time": 10,
+            "musclesWorked": "Forearms",
+            "repGoal": 10,
+            "equipment": "Cable Machine"
+        },
+        {
             "name": "nya ichi ni san (Cable wrist curl)",
-            "reps": 15,
+            "reps": 25,
             "sets": 3,
             "time": 10,
             "musclesWorked": "Wrists, Forearm",
             "repGoal": 20,
-            "equipment": "Cable Machine"
+            "equipment": "Cable Machine",
+            "alternative": {
+                "name": "Dumbbell Wrist Curls",
+                "reps": 12,
+                "sets": 3,
+                "time": 10,
+                "equipment": "Dumbbells"
+            }
         },
+        
         {
             "name": "Pull Ups",
             "reps": 10,
-            "sets": 4,
+            "sets": 3,
             "time": 10,
             "musclesWorked": "Back, Biceps",
             "repGoal": 10,
