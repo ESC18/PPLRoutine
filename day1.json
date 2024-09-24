@@ -1,9 +1,25 @@
 {
     "workoutType": "Push day",
-    "totalTime": 95,
+    "totalTime": 85,
     "exercises": [
         {
-            "name": "Incline/Flat Bench Press",
+            "name": "Incline Bench Press",
+            "reps": 8,
+            "sets": 5,
+            "time": 15,
+            "musclesWorked": "Chest, Triceps",
+            "repGoal": 12,
+            "equipment": "Barbell",
+            "alternative": {
+                "name": "Dumbbell Press",
+                "reps": 8,
+                "sets": 5,
+                "time": 15,
+                "equipment": "Dumbbells"
+            }
+        },
+        {
+            "name": "Flat Bench Press",
             "reps": 8,
             "sets": 5,
             "time": 15,
@@ -28,24 +44,6 @@
             "equipment": "Dumbbells"
         },
         {
-            "name": "Lateral Raise",
-            "reps": 8,
-            "sets": 4,
-            "time": 10,
-            "musclesWorked": "Shoulders",
-            "repGoal": 10,
-            "equipment": "Dumbbells"
-        },
-        {
-            "name": "Front Lateral Raise",
-            "reps": 8,
-            "sets": 4,
-            "time": 10,
-            "musclesWorked": "Shoulders",
-            "repGoal": 10,
-            "equipment": "Dumbbells"
-        },
-        {
             "name": "Skullcrushers",
             "reps": 8,
             "sets": 4,
@@ -53,15 +51,6 @@
             "musclesWorked": "Triceps",
             "repGoal": 10,
             "equipment": "Barbell"
-        },
-        {
-            "name": "Tricep Pulldown",
-            "reps": 10,
-            "sets": 3,
-            "time": 10,
-            "musclesWorked": "Triceps",
-            "repGoal": 10,
-            "equipment": "Cable Machine"
         },
         {
             "name": "Pec Fly Machine",

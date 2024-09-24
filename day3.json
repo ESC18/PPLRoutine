@@ -1,12 +1,12 @@
 {
     "workoutType": "Leg day",
-    "totalTime": 100,
+    "totalTime": 65,
     "exercises": [
         {
             "name": "Leg Press",
             "reps": 10,
-            "sets": 5,
-            "time": 15,
+            "sets": 4,
+            "time": 10,
             "musclesWorked": "Quads, Hamstrings, Glutes",
             "repGoal": 12,
             "equipment": "Leg Press Machine"
@@ -14,7 +14,7 @@
         {
             "name": "Prone Leg Curls",
             "reps": 10,
-            "sets": 5,
+            "sets": 4,
             "time": 10,
             "musclesWorked": "Hamstrings, Glutes",
             "repGoal": 12,
@@ -39,23 +39,7 @@
             "equipment": "Barbell + Weights, Squat Rack"
         },
         {
-            "name": "Bulgarian Split Squat",
-            "reps": 8,
-            "sets": 4,
-            "time": 15,
-            "musclesWorked": "Quads, Glutes",
-            "repGoal": 10,
-            "equipment": "Dumbbells",
-            "alternative": {
-                "name": "Weighted Lunges",
-                "reps": 8,
-                "sets": 4,
-                "time": 15,
-                "equipment": "Dumbbells"
-            }
-        },
-        {
-            "name": "Standing Calf Raises",
+            "name": "Calf Raises",
             "reps": "15 x3(SOI)",
             "sets": 4,
             "time": 10,
@@ -64,19 +48,10 @@
             "equipment": "Standing Calf Raise Machine"
         },
         {
-            "name": "Stair Master",
-            "reps": "15-50 Levels",
-            "sets": 1,
-            "time": 15,
-            "musclesWorked": "Quads, Glutes, Hamstrings, Calves",
-            "repGoal": "None",
-            "equipment": "Stair Master"
-        },
-        {
             "name": "Treadmill Forwards/Backwards",
-            "reps": "1-2 Miles",
+            "reps": "1-5 Miles",
             "sets": 1,
-            "time": 15,
+            "time": 10,
             "musclesWorked": "Quads, Glutes, Hamstrings, Calves",
             "repGoal": "None",
             "equipment": "Treadmill"

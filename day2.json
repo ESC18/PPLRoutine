@@ -1,6 +1,6 @@
 {
     "workoutType": "Pull day",
-    "totalTime": 110,
+    "totalTime": 80,
     "exercises": [
         {
             "name": "Dumbbell Row",
@@ -30,22 +30,6 @@
             "equipment": "Dumbbells"
         },
         {
-            "name": "Preacher Curls",
-            "reps": 8,
-            "sets": 3,
-            "time": 10,
-            "musclesWorked": "Biceps",
-            "repGoal": 10,
-            "equipment": "Preacher curl bench",
-            "alternative": {
-                "name": "Bicep Static Holds",
-                "reps": 1,
-                "sets": 1,
-                "time": 3,
-                "equipment": "Ez bar"
-            }
-        },
-        {
             "name": "Lat Pulldown",
             "reps": 12,
             "sets": 4,
@@ -73,15 +57,6 @@
             "equipment": "Cable Machine"
         },
         {
-            "name": "reverse Curl",
-            "reps": 8,
-            "sets": 4,
-            "time": 10,
-            "musclesWorked": "Forearms",
-            "repGoal": 10,
-            "equipment": "Cable Machine"
-        },
-        {
             "name": "nya ichi ni san (Cable wrist curl)",
             "reps": 25,
             "sets": 3,
@@ -97,7 +72,6 @@
                 "equipment": "Dumbbells"
             }
         },
-        
         {
             "name": "Pull Ups",
             "reps": 10,
